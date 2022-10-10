@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 27px;
+    font-family: 'League Gothic', sans-serif, 400;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.contenedor {
+    background-color: hsl(216, 26%, 15%);
+    width: 320px;
+    height: 366px;
+    border-radius: 24px;
+    padding: 1.8rem 2rem;
+}
+
+.texto {
+    margin-bottom: 33px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'League Gothic', sans-serif, 400;
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 26px;
+}
+
+.estrella {
+    margin-bottom: 20px;
+}
+
+.numeros {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1rem;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    font-family: 'League Gothic', sans-serif, 700;
+    font-weight: 700;
+}
+
+.hym {
+    margin-bottom: 27px;
+}
+
+.hym:hover {
+    cursor: pointer;
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%)
+}
+
+.numeros:active {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.activo {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.contenedor-numeros {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100%;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    padding: 1rem;
+    color: hsl(0, 0%, 100%);
+    border-radius: 34px;
+    letter-spacing: 3px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer
+}
+
+
+/* Lado B */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+
+.texto2 {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 0.5rem 0.9rem;
+    margin-bottom: 35px;
+}
+
+.display {
+    display: none;
+}
+
+.h3B {
+    margin-bottom: 15px;
+}
+
+.pB {
+    margin-top: 0;
+    text-align: center;
+}
